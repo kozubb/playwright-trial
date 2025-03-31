@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test("Select store in delivery option", async ({ page }) => {
-  const endpoint = "https://qa7-www.solutions4delivery.com";
+  const endpoint = "https://www.qa24.s4d.eu";
   const addressStreet = "Adelaide Road 36";
   const addressCity = "D02 PX29 Dublin 2";
   const infoBannertext =

@@ -1,7 +1,7 @@
 import { test, expect, request } from "@playwright/test";
 
 test("Customize product and add to the basket", async ({ request }) => {
-  const restApiUrl = "https://qa7-restapi.solutions4delivery.com";
+  const restApiUrl = "https://rest-api.qa24.s4d.eu";
   const existedEmailPayload = {
     emailAddress: "qa+TA_qa7no_saved_address@solutions4delivery.com",
   };
